@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--7.You're creating a website for a local restaurant.
+    Design a form for customers to make
+    reservations.-->
+
+    <form>
+       <label for="name">Name:</label>
+       <input type="text" id="name">
+       <br>
+       <br>
+       <label for="date">Date:</label>
+       <input type="date" id="date">
+       <label for="time">Time:</label>
+       <input type="time">
+       <br>
+       <br>
+       <label for="guests">Number of Guests:</label>
+       <input type="number" style="width: 30px;" id="guests">
+       <br>
+       <br>
+       <label for="request">Special Requests:</label>
+       <textarea id="request"></textarea>
+       <br>
+       <br>
+       <button>Make Reservation</button>
+    </form>
+<hr>
+<br>
+
+    <!--For a tech review website,create a form that allows users to rate a product and leave a
+      review-->
+
+      <form>
+        <label for="product">Product:</label>
+        <input type="text" id="product">
+        <br><br>
+        <label for="rating">Rating:</label>
+        <select id="rating">
+            <option>5 Stars</option>
+            <option>4 Stars</option>
+            <option>3 Stars</option>
+            <option>2 Stars</option>
+            <option>1 Star</option>
+        </select>
+        <br>
+        <br>
+        <label for="review">Your Review:</label>
+        <textarea id="review"></textarea>
+        <input type="button" value="Submit Review">
+      </form>
+</body>
+</html>
